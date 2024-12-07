@@ -5,7 +5,7 @@
 
 Turn your video into images
 * filename: example-> "xyz.mp4"
-* frame_rate: How many frame will the function save per second.
+* frame_rate: Photos_Saved_Per_Second ~= Video_FPS / Frame_Rate
 * output_folder: Name of your folder. It generates an additional folder inside this folder named as same as your video.
 
 ## Required Libraries:

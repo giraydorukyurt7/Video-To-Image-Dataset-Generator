@@ -3,7 +3,7 @@ import os
 
 # Turn your video into images
 # filename: example-> "xyz.mp4"
-# frame_rate: How many frame will the function save per second.
+# frame_rate: -----> Photos_Saved_Per_Second ~= Video_FPS / Frame_Rate
 # output_folder: Name of your folder. It generates an additional folder inside this folder named as same as your video.
 def VideoToImage(filename, frame_rate=10, output_folder="Image_Dataset"):
     video_path = "Video_Dataset/"+filename
